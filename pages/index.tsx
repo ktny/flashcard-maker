@@ -1,9 +1,10 @@
 import Layout from "../components/layout";
+import PlayArea from "../components/play-area";
 
-export default function Home() {
+export default function Index() {
   return (
     <Layout>
-      <header>aaa</header>
+      <PlayArea />
     </Layout>
   );
 }

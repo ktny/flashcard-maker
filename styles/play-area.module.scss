@@ -1,0 +1,18 @@
+.playArea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 60px);
+}
+
+.mixer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 800px;
+  margin-bottom: 100px;
+}
+
+.cardArea {
+  width: 400px;
+}
