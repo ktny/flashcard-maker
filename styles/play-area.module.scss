@@ -5,14 +5,21 @@
   height: calc(100vh - 60px);
 }
 
-.mixer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.inner {
   width: 800px;
   margin-bottom: 100px;
 }
 
+.mixer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .cardArea {
   width: 400px;
+}
+
+.shuffled {
+  color: red;
 }
